@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pseudo class</title>
+	<style>
+		.hello:link {
+			color: orange;
+		}
+		.hello:hover {
+			color: red;
+			font-family: arial;
+			font-size: 50px;
+		}
+		.hello:active {
+			font-style: italic;
+		}
+		.hello:visited {
+			color : green;
+		}
+
+
+		li:first-child a {
+			color : black;
+		}
+
+		li:last-child a {
+			color : black;
+		}
+
+		li:nth-child(3n) a {
+			color : black;
+		}
+
+		p:first-of-type  {
+			color: red;
+		}
+
+		p:last-of-type  {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<a href="#" class="hello">Hello Word</a>
+	 <ul>
+	 	<li><a href="#">link 1</a></li>
+	 	<li><a href="#">link 2</a></li>
+	 	<li><a href="#">link 3</a></li>
+	 	<li><a href="#">link 4</a></li>
+	 	<li><a href="#">link 5</a></li>
+	 	<li><a href="#">link 6</a></li>
+	 	<li><a href="#">link 7</a></li>
+	 	<li><a href="#">link 8</a></li>
+	 	<li><a href="#">link 9</a></li>
+	 	<li><a href="#">link 10</a></li>
+	 </ul>
+	<P>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Recusandae animi, nihil numquam laudantium alias, ipsa cupiditate facere accusamus! Alias, quas nihil facere ullam consectetur. Minima obcaecati sequi beatae voluptatem nam.</P>
+	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum incidunt aut ex hic voluptatibus, vitae reiciendis. Dolore, neque fuga minus veniam quia quidem amet quasi laboriosam cum ut molestias quo.</p>
+
+</body>
+</html>

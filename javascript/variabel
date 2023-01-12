@@ -1,0 +1,127 @@
+Variabel : sebuah simbol yang melangbangkan suatu data / sebuah tempat atau wadah yang memiliki nama, yang di gunakan untuk menyimpan nilai.
+
+1. var      deklarasi dan inisialisasi
+contoh :
+var kaleng = "sarden"
+jika panggil kaleng :
+>kaleng
+<'sarden'
+kita sudah membuat simbol yang melangbangkan sarden.
+===============================================================
+cara penulisan variabel:
+- membuat variabel tidak boleh pakai spasi,di ganti under_score (_).
+- huruf capital juga mempengaruhi nilai variabel.
+- deklarasi variabel tidak boleh di mulai dengan anggka.
+- tidak boleh menggunakan simbol-simbol unik (\][]\';)
+- tidak boleh menggunakan kata dari keyword & reseved word.
+
+===============================================================
+
+yang penting di variabel adalah
+1. deklarasi : simbol yang sudah kita deklarasikan yaitu var.
+
+2. Inisialisasi : nilai yang sudah kita beri ke variabel.
+
+================================================================
+- variabel bisa berisi tipe data (number, string, boolean) dan struktur data (array dan object):
+contoh isi variabel dengan array:
+kotak_pensil
+(3) ['pensil', 'penghapus', 'penggaris']
+0: "pensil"
+1: "penghapus"
+2: "penggaris"
+length: 3
+[[Prototype]]: Array(0)
+
+================================================================
+memanggil salah satu value-nya: dalam kurung kotak di isi nilai index-nya:
+kotak_pensil[2]
+'penggaris'
+
+- kelebihan dari variabel :
+bisa mengganti nilai yang ada di dalam array:
+
+kotak_pensil[2] = "duit"
+'duit'
+kotak_pensil[2]
+'duit'
+
+kotak_pensil
+(3) ['pensil', 'penghapus', 'duit']
+
+- contoh isi variabel dengan object:
+var kelinci={
+    nama: "bejo",
+    mata: "dua",
+    bulu: "putih"
+}
+undefined
+kelinci
+{nama: 'bejo', mata: 'dua', bulu: 'putih'}
+bulu: "putih"
+mata: "dua"
+nama: "bejo"
+[[Prototype]]: Object
+
+pemanggilan data di object menggunakan titik(.):
+cara 1: 
+kelinci.nama
+'bejo'
+
+cara 2 dengan kurung kotak dan tanda petik:
+kelinci['nama']
+'bejo'
+
+- contoh isi variabel dengan boolean:
+var laptop = 'lenovo' == 'acer'
+undefined
+laptop
+false
+
+atau
+
+var laptop = 'lenovo' == 'lenovo'
+undefined
+laptop
+true
+
+- contoh isi variabel dengan tipe data number:
+var bukuSaya=10-6
+undefined
+bukuSaya
+4
+
+
+- contoh isi variabel dengan tipe data string:
+var istriSaya='yunita'
+undefined
+istriSaya
+'yunita'
+
+==============================================================
+
+shorhand penulisan variabel:
+var nama = "yanto",
+    umur = 34,
+    lulus = true;
+
+lingkup variabel / variable scope:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

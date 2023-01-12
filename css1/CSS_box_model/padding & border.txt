@@ -1,0 +1,21 @@
+nilai padding: 
+1. padding tidak bisa di kasih nilai negatif
+2. padding tidak bisa di kasih nilai auto
+3. border mempengaruhi ukuran kotak yang sudah di buat
+
+nilai border:
+border: width style color;
+border: 5px solid black;
+note: border mempengaruhi ukuran kotak yang sudah di buat
+
+
+style dari border:
+1. solid 
+2. dotted (titik-titik)
+3. dashed (putus-putus)
+4. double (dobel)
+
+
+box-sizing: untuk mengkalkulasi box (kotak) yang sudah kita buat
+
+	

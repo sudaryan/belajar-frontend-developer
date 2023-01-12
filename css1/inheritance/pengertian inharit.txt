@@ -1,0 +1,3 @@
+inharit : pewarisan.
+adalah sebuah nilai untuk memberi pewarisan terhadap sebuah elemen
+ yang tidak mempunyai pewarisan dari parent nya

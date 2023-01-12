@@ -1,0 +1,12 @@
+h1 { font-family: cilibri, verdana, sans-serif;
+ 	font-size: 50px;
+ 	font-variant: small-caps;
+ 	font-style: oblique;
+ }
+ p	{font-family: georgia, arial;
+font-weight: lighter;
+line-height: 30px
+ }
+
+/*urutan untuk short code : font-style, font-variant,
+ font-weight, font-size, line-height, font-family*/

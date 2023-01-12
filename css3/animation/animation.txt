@@ -1,0 +1,41 @@
+animation : 
+
+kelebihan animation : bisa ditulis di bagian css manapun, tidak harus
+didalam selector html.
+
+sebelum memanggil animation-nya, harus membuat @keyframes-nya dulu
+
+syntax :
+@keyframes [name] {
+	from {
+		[property-css]
+	}
+
+	to {
+		[property-css]
+	}
+}
+
+
+1. property yang dipakai oleh 
+animation:
+[name] [duration] [timing-function]
+[delay] interation-count] [direction]
+[fill-mode] [play-state]
+
+
+1. name : nama animasi
+2. duration : lama durasi
+3. timing-funtion :
+4. interation-count : <angka> | infinite
+
+
+5. diretion :
+normal | reverse | alternate | alternate-reverse
+
+6. fill-mode :
+none | forwadrs | backwards | both
+
+
+7. play-state :
+running | paused		

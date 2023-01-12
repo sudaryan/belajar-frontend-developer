@@ -1,0 +1,40 @@
+Struktur Data 
+1. Array []
+2. Object {}
+
+1-array : ditandai dengan kurung kotak ([])
+['aku', 'dan', 'kamu'] 
+(3)=index ['aku', 'dan', 'kamu'] = dalam kurung kotak di sebut value
+["aku", "dan", "kamu"]
+(3) ['aku', 'dan', 'kamu']
+0 : "aku"
+1: "dan"
+2: "kamu"
+length: 3
+[[Prototype]]: Array(0)
+-array bisa menyimpan number, data, string, dan boolen.
+-index dari Array berupa angka.
+
+2- Object: di tandai dengan kurung kurawal {}
+- Struktur data ini mempresentasikan sebuah object.
+- {nama: 'kelinci', bulu: 'putih', mata: '2', telinga: 'dua'}
+{
+    nama: 'kelinci',
+    bulu: 'putih',
+    mata: '2',
+    telinga: 'dua',
+    warnaMata: 'hitam',
+    jumlahKelinci:'satu'}
+{nama: 'kelinci', bulu: 'putih', mata: '2', telinga: 'dua', warnaMata: 'hitam', …}
+bulu: "putih"
+jumlahKelinci: "satu"
+mata: "2"
+nama: "kelinci"
+telinga: "dua"
+warnaMata: "hitam"
+[[Prototype]]: Object
+dari struktur data object di atas:
+nama,bulu,telinga,warnaMata,jumlahKelinci adalah index.
+kelinci,putih,2,dua,hitam,satu adalah value.
+- index di object berupa key.
+

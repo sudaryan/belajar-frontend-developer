@@ -1,0 +1,40 @@
+pemilihan font:
+1. font harus ada di sistem operasi client/user
+
+
+2. pakai google fonts https://fonts.google.com
+	-pastikan ada koneksi internet
+
+3. jika google fonts tidak cukup?
+	-@font-face
+	syntax @font-face:
+	@font-face {
+	font-family: 'namaFontBaru';
+	scr: url('lokasi/file/fontBaru.eot');
+	scr: url('lokasi/file/fontBaru.eot?#iefix') format('embedde-opentype'),
+	scr: url('lokasi/file/fontBaru.woff2') format('woff2'),
+	scr: url('lokasi/file/fontBaru.woff') format('woff'),
+	scr: url('lokasi/file/fontBaru.tff') format('truetype'),
+	scr: url('lokasi/file/fontBaru.svg#svgFontNmae') format('svg');
+	}
+
+tempat download font:
+
+fonts.google.com
+fontsquirrel.com
+fontspring.com
+webtype.com
+typetheque.com
+dll
+
+
+yang bagus di pakai untuk website adalah font dengan format woff/woff2:
+. Web Open File Format
+. Di kembangkan oleh mozilla
+. Dibuat khusus untuk website
+. Di-load lebih cepat daripada jenis font yang lain
+. Merupakan kompresi dari tipe TTF/OTF
+
+
+Font Web Generator : adalah cara mengubah font format otf/ttf menjadi
+format woff

@@ -1,0 +1,13 @@
+Grid sistem di bootstrap:
+1. container : wadah tempat menyimpan content 
+    a. container : wadah yang lebih keil dari container-fluid, di samping kiri dan kanan terdapat margin masing-masing 15px.
+    b. container-fluid : wadah memenuhi halaman browser.
+2. collumn / kolom : garis secara vertikal, terdiri dari 12 kolom
+3. row : garis secara horisontal. 
+    di antara kolom dan baris adalah grid.
+4. gutter : jarak antar kolom
+5. margin : jarak di sebelah kiri dan kanan / white space
+6. offset : menyeimbangkan antara kolom, y-offset-2 (mengurangi 2 kolom sebelah kiri untuk white space.
+7. nesting grid : grid bersarang / membuat kolom di dalam kolom.
+8. responsive breakpoints :
+

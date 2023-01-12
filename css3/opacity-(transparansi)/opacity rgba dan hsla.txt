@@ -1,0 +1,10 @@
+opicity:
+membuat elemen menjadi transparan.
+
+
+jika punya elemen yang berada di dalam elemen, elemen yang di dalam 
+akan ikut transparan karena mengikuti sifat parent-nya.
+
+cara membuat elemen yang didalam tidak transparan dengan cara :
+1. HGBA (red green blue alpha)
+2. HSLA (hue saturation light alpha)

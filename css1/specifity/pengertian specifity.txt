@@ -1,0 +1,11 @@
+setiap deklarasi css(selector) memiliki berat yang berbeda.
+berat tersebut menentukan seberapa specifik sebuah elemen dapat di pilih oleh selector.
+
+1. elemen yang yang punya nilai atau berat yang paling tinggi akan di pilih duluan
+2. jika ada dua seletor yang sama dan di beri nilai berbeba maka seletor yang terakhir yang di pilih
+
+cara hitung specifity (spesifik) sebuah elemen:
+element : 1
+class	: 10
+id	: 100
+inline	: 1000

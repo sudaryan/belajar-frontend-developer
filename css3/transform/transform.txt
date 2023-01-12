@@ -1,0 +1,21 @@
+tranform : memungkinkan kita dapat memanipulasi format visual dari 
+	elemen html
+
+transform :
+1. 2D
+2. 3D
+
+syntax :
+transform: <fungsi>;
+
+fungsi transformasi
+1. scale : memperbesar / memperkecil
+2. rotate : memutar
+3. skew : membuat condong / miring
+4. translate : merubah posisi
+
+
+scale (angka), scaleX (angka), scaleY(angka), 
+rotate(deg), rotateX(deg), rotateY(deg),
+skew(deg), skewX(deg), skewY(deg),
+translate(px), TranslateX(px), translateY(px)

@@ -1,0 +1,22 @@
+filter: property css3 yang digunakan untuk memberikan efek visual pada
+gambar, background atau border
+
+nilai filter:
+	blur (px)
+	brighness (angka | %)
+	contrast (angka | %)
+	saturate (angka | %)
+	grayscale (angka | %)
+	sepia (angka | %)
+	hue-rotate (deg)
+	invert (angka | %)
+	opacity (angka | %)
+	drop-shadow (sama seperti box shadow)
+	
+
+
+menggunkan property filter melibatkan hadrware akselerasi, jadi prosesnya 
+lebih cepat di load oleh browser.
+
+
+		

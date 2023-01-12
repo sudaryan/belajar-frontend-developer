@@ -1,0 +1,55 @@
+transition: memungkinkan kita dapat mengubah nilai dari properti
+	secara halus
+
+transition :
+[property] <durasi> [fungsi] [delay];
+
+
+durasi : s / ms
+
+property :
+1. all <nama property>
+2. none
+
+fungsi :
+fungsi transisi / timing function : pergerakan apa yang mau kita berikan 
+.
+value:
+1. ease
+2. ease-in
+3. ease-out
+4. ease-in-out
+5. linear
+6. cubic-bezier(w,x,y,z)
+
+
+delay : memberikan waktu tunggu sebelum melakukan transisi
+(s / ms)
+
+
+
+
+
+
+animatable properties :
+1. background-color
+2. background-position
+3. background-size
+4. border
+5. color
+6. filter
+7. font-size
+8. line-height
+9. top left bottom right
+10. margin padding
+11. width height
+12. opacity
+13. transform
+14. word-spacing
+15. letter-spacing
+
+
+non-animatable properties :
+1. font-family
+2. display
+3. position

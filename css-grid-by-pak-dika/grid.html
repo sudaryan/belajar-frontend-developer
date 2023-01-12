@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            width: 680px;
+            height: 800px;
+            border: 5px solid black;
+            padding: 5px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-areas: "header header"
+                "aside main"
+                "nav main"
+                "footer footer";
+            grid-template-columns: 1fr 1.5fr;
+            grid-template-rows: 1fr 1fr 1.3fr 0.5fr;
+        }
+
+        header {
+            grid-area: header;
+            /* padding: 40px; */
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+        }
+
+        aside {
+            grid-area: aside;
+            /* padding: 60px; */
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+        }
+
+        .nav {
+            grid-area: nav;
+            /* padding: 100px; */
+            display: flex;
+            background-color: red;
+            border: 3px solid black;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            grid-area: main;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: gray;
+            /* padding: 20px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+        <aside>Aside</aside>
+        <div class="nav">Nav</div>
+        <main>Main</main>
+        <footer>Footer</footer>
+    </div>
+</body>
+
+</html>

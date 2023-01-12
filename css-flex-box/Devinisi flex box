@@ -1,0 +1,59 @@
+Flex box (felxible blok layout module): 
+1. Model layout 1 dimensi yang dapat mengatur jarak dan penjajaran item dalam sebuah container.
+    - 1 dimensi : Hanya dapat mengatur 1 dimensi pada saat tertentu, antara baris atau kolom, tidak bisa keduannya sekaligus.
+
+2. Sebuah modul yang menawarkan cara yang efektif untuk menyusun. mensejajarkan dan mendistribusikan jarak antar item dalam sebuag container, meskipun ukurannya dinamis atau bahkan kita tidak tau.
+
+===============================================
+istilah-istilah dalam flex box :
+1. container
+2. items
+3. main axis : mensejajarkan item secara horizontal
+4. cross axis : mensejajarkan item secara vertical
+5. main size : ukuran (width / height dari container
+6. cross size : ukuran dari kolomnya
+7. main start / main end : menentukan urutan dari element nya secara horizontal
+8. cross start / cross end : menentukan urutan dari element nya secara vertical
+
+Nilai yang harus di beri kepada container nya :
+1. display : flex; atau inline flex
+    - Nilai ini membuat sebuah elemen parent menjadi flex box, dan membuat elemen-elemen di dalamnya bisa berpiralaku flex juga.
+
+2. display : flex-diretion: row | row-reverse | column | column-reverse.
+    - untuk mengatur arah items dalam container nya.
+
+3. display : flex-wrap: 
+    - Secara default semua items di dalam container akan berada pada satu baris meskipun ukurannya seudah tidak cukup,wrap memungkinkan untuk memindahkan items nya ke baris kebawah.
+
+4. display : justify-content : flex-start | flex-end | center | space-between | space-around | space-evenly
+    - untuk mengatur jarak antara items di dalam container secara horizontal.
+
+5. display : align-items : flex-start | flex-end | center | stretch | baseline
+    - untuk mengatur jarak antara items di dalam container secara vertical.
+
+6. display : align-content : flex-start | flex-end | center | stretch | space-between | space-around
+    - mengatur jarak antar items terhadap cross axis (hanya berfungsi ketika items lebih dari satu baris)
+
+================================================================
+Nilai yang harus di beri kepada item-nya :
+1. order
+    .satu { order : 1, 2, 3, ...; }
+    - mengatur posisi/urutan items dalam container
+
+2. flex-grow
+    .dua { flex-grow :  1, 2, 3, ...; }
+    - mengatur ukuran items nya
+
+3. align-self
+    .satu {
+        align-self: auto | flex-start | flex-end | 
+        center | baseline | stretch;
+    - mengatur perilaku penjajaran sebuah item yang spesifik terhadap cross axis.
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+PERBEDAAN FLOAT DAN POTITION
+
+FLOAT apa sih float itu sedikit tentang penjelasannyanya, dalam bahasa indonesia float artinya adalah mengambang, namun dalam penterjemahan dalam Bahasa pemrograman dalam css ialah mengatur elemen secara horizontal berpatokan pada element element yang membungkusnya, nah itu adalah sedikit tentang penjelasan dari float .
+
+POSITION apa sih position itu , sedikit penjelasan tentang position, dalam Bahasa Indonesia Position mengandung arti yang artinya adalah posisi, dimana dalam Bahasa pemrograman kita bisa artikan tidak jauh beda dengan float hanya yang membedakan hanyalah penempatan elementnya saja , jika dengan float kita dapat membuat element html secara dampingan namun pada position kita dapat membuat element html menjadi saling tindih .
+
+Berikut adalah pelengkap atau VALUE dari FLOAT dan POSITION :
+
+FLOAT memiliki VALUE : LEFT dan RIGHT sedangkan POSITION memiliki VALUE : possiton: relative (induk), Possiton: absolute (sebagai anak) dan Position: fixed (yang mengatur dirinya sendiri).

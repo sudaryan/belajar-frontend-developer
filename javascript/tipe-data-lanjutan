@@ -1,0 +1,27 @@
+Tipe Data Lanjutan : tipe data yang tidak ada nilainya
+1. Undefined : tidak terdeteksi
+2. Null      : kosong (tidak ada inputan data)
+3. NaN       : Not a Number
+
+==================================
+
+cara melihat data lanjutan :
+1. undefined
+
+var kucing
+undefined
+kucing
+undefined
+
+
+function testing(){
+
+}
+undefined
+testing()
+undefined
+====================================
+
+3. NaN
+'5a' - 3
+NaN

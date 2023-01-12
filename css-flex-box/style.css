@@ -1,0 +1,154 @@
+.container {
+    width: 700px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+   /* align-items: stretch; /*berfungsi jika element items nya tidak di atur tingginya*/
+    align-content: stretch; /* berfungsi jika element items nya tidak di atur lebarnya*/
+}
+
+.container div {
+    /* width: 100px; */
+    height: 100px;
+    background-color: aqua;
+    margin: 3px;
+}
+
+.container1 {
+    width: 700px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /*align-items: baseline; /*mensejajarkan baris sesuai ukuran text di dalam items */
+    align-content: stretch;
+}
+
+.container1 div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 3px;
+}
+
+.container1 div.tiga {
+    font-size: 3em;
+
+}
+
+.container1 div.empat {
+    font-size: 5em;
+    
+}
+.container1 div.satu {
+    font-size: 6em;
+    
+}
+
+.container2 {
+    width: 700px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+    
+}
+
+.container2 div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 3px;
+
+}
+
+.container2 div.satu {
+    order:1;
+
+}
+
+.container2 div.dua {
+    order:2;
+
+}
+.container2 div.tiga {
+    order:0;
+
+}
+
+.container3{
+    width: 700px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+
+}
+.container3 div{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 3px;
+
+}
+
+.container3 div.satu {
+    flex-grow:1;
+
+}
+
+.container3 div.dua {
+    flex-grow: 2;
+
+}
+.container3 div.tiga {
+    flex-grow: 3;
+
+}
+
+.container4{
+    width: 700px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 50px auto;
+    display: flex;
+
+}
+.container4 div{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 3px;
+
+}
+
+.container4 div.satu {
+    font-size: 40px;
+    align-self: baseline;
+
+}
+
+.container4 div.dua {
+align-self: center;
+
+}
+.container4 div.tiga {
+/*align-self: stretch; /*berlaku jika tidak di atur tingginya*/
+font-size: 10px;
+align-self: baseline;
+
+}
+
+
+.container4 div.empat {
+align-self: flex-end;
+
+}

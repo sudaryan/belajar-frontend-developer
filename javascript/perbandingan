@@ -1,0 +1,12 @@
+Perbandingan : cara komputer menentukan benar atau salah, tipe nilai yang di keluarkan adalah tipe boolean yaitu benar dan salah.
+
+1. ==           sama dengan
+2. !=           tidak sama dengan
+3. ===          sama dengan (dengan tipe data)
+4. !==          tidak sama dengan (dengan tipe data)
+5. >            lebih besar dari
+6. <            lebih kecil dari
+7. >=           lebih besar sama dengan
+8. >=           lebih kecil sama dengan
+
+

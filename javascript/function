@@ -1,0 +1,80 @@
+function (fungsi) : 
+1. function name () {}
+2. return
+
+======================
+definisi
+1. function : tempat kita untuk menyimpan algoritma, 
+                algoritma adalah instruksi-instruksi jelas untuk menyelesaikan 
+                suatu masalah.
+2. function menurut Douglas Crockford : function adalah kunci utama pada javascript, yang membuat javascript sangat powerfull.
+
+cara membuat fungsi:
+function kerja_keras() {
+    return "kerja cerdas"
+}
+undefined
+kerja_keras
+ƒ kerja_keras() {
+    return "kerja cerdas"
+}
+kerja_keras()
+'kerja cerdas'
+====================================
+ƒ penjumlahan() {
+    var angka = 5+290;
+    return angka;
+
+penjumlahan()
+295
+=====================================
+function perkalian(angka1,angka2) {
+    var angka = angka1 + angka2;
+    return angka;
+}
+undefined
+
+perkalian(34,131)
+165
+===================================
+function perkalian(angka1,angka2) {
+    var angka = angka1*angka2;
+    return angka;
+}
+undefined
+perkalian(43,65)
+2795
+======================================
+
+function rumus_persegi(angka1,angka2){
+    return hasil = angka1*angka2;
+}
+undefined
+rumus_persegi(6,8)
+48
+==============================================
+
+function rumus_persegi_panjang(panjang,lebar){
+    return hasil = panjang*lebar;
+}
+undefined
+
+rumus_persegi_panjang(8,4)
+32
+
+==========================================
+
+function modulus(E,pembagi){
+    return hasil= E%2;
+}
+undefined
+modulus(15,2)
+1
+
+
+
+
+
+
+
+

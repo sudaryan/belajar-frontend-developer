@@ -1,0 +1,27 @@
+vendor prefix : sintaks khusus yang harus ditambahkan untuk beberapa
+		 property CSS3
+
+sintaks spesifik untuk tiap browser/vendor
+
+prefix : awalan pada sebuah property di css3.
+
+-webkit-<property-css3>
+-moz-<property-css3>
+-ms-<property-css3>
+-o-<property-css3>
+
+kenapa harus menambakan vendor premix?
+karena tidak semua browser support CSS3 untuk saat ini.
+
+
+vendor prefixes
+-webkit- (chrome, safari, opera versi terbaru)
+-moz- (firefox)
+-ms- (internet explorer)
+-o- (opera versi lama)
+
+property css3 apa aja yang butuh vendor prefixes?
+shouldiprefix.com
+caniuse.com
+pleeease.io/play/
+

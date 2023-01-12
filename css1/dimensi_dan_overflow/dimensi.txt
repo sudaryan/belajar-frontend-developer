@@ -1,0 +1,19 @@
+satuan yang bisa di pakai di html (width & height):
+px	: pixel (ukurannya absolute)
+%	: persen (ukurannya relatif, mengikuti ukuran parentnya)
+in	: inchi
+cm	: centi meter
+mm	: milimeter
+pt	: point
+p	: pica
+
+
+
+overflow
+digunakan untuk mengatur konten yang keluar dari parent nya
+
+value dari overflow:
+- visible (defautl)
+- auto
+- hidden
+- scroll

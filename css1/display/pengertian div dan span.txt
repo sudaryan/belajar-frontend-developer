@@ -1,0 +1,46 @@
+tag <div> dan <span>:
+digunakan untuk mengelompokkan bagian-bagian dari elemen html.
+<div> dan <span> mempunyai display defautl:
+
+<div></div>  displaynya adalah berupa block.
+<span></span> displaynya adalah berupa inline.
+
+properti dari <div> & <span> : width dan height
+
+setiap tag pada html berada di dalam sebuah kotak.
+properti display pada CSS mengatur perilaku dari kotak tersebut.
+
+properti tag pada html memiliki nilai defautl untuk properti display.
+Tetatpi kita juga dapat mengubah perilaku dari tag tersebut dengan
+mengganti value-nya.
+
+display inline:
+- elemen html yang secara defautl tidak menambahkan baris baru ketika di buat
+- lebar dan tinggi elemennya sebesar konten yang ada di dalamnya
+- kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+- margin dan padding hanya mempengaruhi elemen secara  horizontal, tidal vertical
+- kecuali element "img" tinggi dan lebarnya bisa di rubah.
+
+contoh elemen inline:
+b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea
+
+display inline-block:
+- tidak ada elemen yang secara defautl memiliki properti display: inline-block.
+- kita harus ubah secara manual properti tersebut.
+- perilaku dasarnya sama dengan elemen inline.
+- perbedaannya, elemen inline-block dapat kita atur tinggi dan lebarnya.
+
+
+display block:
+- elemen html yang secara defautl menambahkan baris baru ketika dibuat.
+- jika tidak di atur lebarnya, maka lebar defautl elemen block akan
+memenuhi lebar dari browser/parent nya.
+- kita dapat mengatur tinggi dan lebar dari elemen block.
+di dalam elemen block, kita dapat menyimpan tag dengan elemen inline, inline-block,
+atau bahkan elemen block lagi.
+
+contoh elemen block:
+h1-h6, p, ol, ul, li, form, hr, div
+
+display none:
+- di gunakan untuk menghilangkan sebuah elemen

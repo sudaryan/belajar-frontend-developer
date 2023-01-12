@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .container {
+            width: 680px;
+            border: 5px solid black;
+            padding: 5px;
+            margin: 20px auto;
+        }
+
+        header {
+            padding: 40px;
+            background-color: purple;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .sidebar {
+            /* width: 40%; */
+            flex: 1;
+
+        }
+
+        aside {
+            padding: 80px;
+            background-color: blue;
+        }
+
+        .nav {
+            padding: 100px;
+            background-color: red;
+        }
+
+        /* 
+        main span {
+            margin: auto;
+        } */
+
+        main {
+            /* width: 60%; */
+            flex: 1.5;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer {
+            background-color: gray;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>Header</header>
+        <div class="content">
+            <div class="sidebar">
+                <aside>Aside</aside>
+                <div class="nav">Nav</div>
+            </div>
+            <main><span> Main</span></main>
+        </div>
+        <footer>Footer</footer>
+    </div>
+    <!-- <div class="container">
+        <div class="header">header</div>
+        <div class="content">
+            <div class="aside">aside</div>
+            <div class="nav">nav</div>
+        </div>
+        <div class="main">main</div>
+        <div class="footer">footer</div>
+    </div> -->
+
+</body>
+
+</html>

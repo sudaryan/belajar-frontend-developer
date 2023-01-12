@@ -1,0 +1,14 @@
+CSS reset: teknik yang dapat membuat kita mengatur ulang nilai-nilai defautl 
+pada html, khususnya margin dan padding.
+
+pada dasarnya banyak elemen dalam html yang mempunyai margin dan padding sendiri
+
+seperti: body, h1, p
+
+kita bisa melakukan reset pada elemen html yang mempunyai margin defautl
+dengan memberi nilai margin:0;
+
+tujuan melakukan reset : supaya kita mempunyai kendali penuh pada elemen
+pada html yang kita buat.
+
+cara paling mudah untuk reset, pakai selector universal yaitu tanda bintang (*)

@@ -1,0 +1,29 @@
+control flow.
+
+normal flow: apabila program kita memiliki lebih dari satu statment, maka steatment tersebut akan di eksekusi dari atas ke bawah atau dari kiri ke kanan.
+
+control flow adalah kendali sepenuhnya oleh pembuat program, tidak harus berjalan normal flow.
+======================================================================
+caranya pakai :
+1. pengulangan : loop / interasi : sintaks : for, while, do while
+   pengulangan itu ada tiga komponen utama: 
+    1. nilai awal
+    2. kondisi / terminasi
+    3. increment / decrement
+=================================================================== 
+    cara penulisan dengan while:
+            while (kondisi) {
+                aksi;
+                increment(penambahan nilai) / decrement (pengurangan nilai).
+            }    
+-jika selama kondisi bernilai true, lakukan aksi dalam blok {}.
+
+Hati-hati jika menggunakan for dan while, jika tidak di beri nilai inrement atau derement maka akan terjadi pengulangan terus menerus atau infinite loop/ looping forever.
+
+=================================================================
+2. pengkondisian/ percabangan : dimana program kita bisa memilih / mengeksekusi steatment yang berbeda berdasarkan kondisi yang di berikan. 
+    sintaks : if 
+              if..else  
+              if..else..if
+              else 
+              swicht

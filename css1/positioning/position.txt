@@ -1,0 +1,67 @@
+property position ada 4 value:
+1. static
+2. relative
+3. absolute
+4. fixed
+
+1. position static:
+. static adalah nilai defautl dari tiap-tiap elemen ketika tidak diberi
+property position
+
+. menggunakan position selain static (non-static), akan membuat sebuah elemen
+mejadi seolah-olah berbeda dimensi dari elemen lainnya
+
+. elemen yang diberi selain static dapat menggunankan property 
+top, left, bottom dan right untuk mengatur posisinya
+
+2. position relative:
+. ketika menggerakkan elemen dengan posisi relative 
+(menggunakan property top, left, bottom dan right), ruang yang
+di tempati oleh elemen tersebut masih ada
+
+. ketika kita menggerakkan elemen dengan posisi relative, elemen akan
+bergerak relative terhadap posisi semula-nya
+
+. jika kita memberi property top: 0;, left : 0; maka elemen tidak berubah
+posisinya
+
+. biasanya kita jarang banget menggeser posisi dari elemen relative, 
+karena biasanya cuma menaikkan sebuah elemen satu tingkat
+
+3. position absolute:
+. ketika menggerakkan elemen dengan posisi absolute 
+(menggunakan property top, left, bottom dan right), ruang yang
+di tempati oleh elemen tersebut di anggap tidak ada
+
+. ketika kita menggerakkan elemen dengan posisi absolute, elemen akan
+bergerak relative terhadap posisi dari elemen parent-nya,
+selama elemen parent-nya memiliki posisi yang juga non-static.
+
+. jika kita memberi property top :0; dan left: 0; maka akan berada
+di ujung kiri atas dari elemen parent terdekatnya. (ini yg membedakan 
+dari posisi relative)
+
+4. position fixed:
+. ketika menggerakkan elemen dengan posisi fixed 
+(menggunakan property top, left, bottom dan right), dia akan bergerak
+mengikuti window browser-nya meskipun parentnya di beri posisi
+non-static.
+
+. biasanya dipakai untuk sidebar atas website untuk mengunci sidebar, 
+seperti menu freeze pada microsoft exel.
+
+
+6.z-index
+. digunakan untuk mengatur posisi elemen yang punya nilai posisi non static.
+
+. elemen yang diberi property z-index akan bergerak ke atas atau 3D.
+
+. value dari z-index adalah angka, semakin besar value-nya maka akan
+bergerak semakin ke depan.
+
+. z-index juga bisa di beri value minus (-) jika ingin di posisikan
+yang paling belakang.
+contoh penggunaan di website yang berisi iklan di depan website.
+
+
+trikercad: adalah web yg bisa membuat ilustrasi gambar 3D

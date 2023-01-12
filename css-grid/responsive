@@ -1,0 +1,40 @@
+bagaimana membuat resonsive?
+1. media Queries Basic
+2. Min dan Max Value
+3. Relative Units
+4. Breakpoint Bootstrap
+===========================
+1. Media Queries : style CSS yang akan di jalankan pada ukuran layar tertentu.
+- @media screen and (width: 576px) {...} HP Landspace
+- @media screen and (width:768px) {...} Tablets
+- @media screen and (width:992px) {...} Dekstops
+- @media screen and (width: 1200px) {...} XL Dekstops
+
+2. Min and Max Value :
+- @media screen and (min-width: 576px) {...} HP Landspace
+- @media screen and (min-width:768px) {...} Tablets
+- @media screen and (min-width:992px) {...} Dekstops
+- @media screen and (min-width: 1200px) {...} XL Dekstops
+
+- @media screen and (max-width: 576px) {...} HP Landspace
+- @media screen and (max-width:768px) {...} Tablets
+- @media screen and (max-width:992px) {...} Dekstops
+- @media screen and (max-width: 1200px) {...} XL Dekstops
+
+3. CSS Units (ukuran dalam CSS)
+- Absolute (cm, px, mm, dll)
+- Relative (vw, vh, em, rem, em, %) ukuran bisa meradaptasi dengan parentnya
+
+4. Responsive Breakpoint yang ada pada Bootstrap :
+- Xs (extra Small) (max-width: 575.98px)
+- Sm (small)       (max-width: 767.98px)
+- Md (medium)      (max-width: 991.98px)
+- Lg (large)       (max-width: 1199.98px)
+- XL (extra large) (tidak memiliki batas lebar)
+
+
+
+
+
+
+

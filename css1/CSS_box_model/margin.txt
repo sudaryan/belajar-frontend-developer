@@ -1,0 +1,22 @@
+Margin:
+1. cara pakai
+2. overlapping margin: jika pertemuan antar margin vertikal, maka margin yang
+paling besar yang di tampilkan.
+
+jika pertemuan antar margin horizontal, maka margin 
+akan di jumlahkan margin kiri dan margin kanan.
+
+3. negatif margin: contoh (-50px), margin yang bergerak berlawanan arah.
+biasanya digunakan untuk menyembunyikan elemen.
+
+4. auto: margin khusus yang bisa diberi ke margin kiri dan margin kanan
+(kiri dan kanan harus di pakai bersamaan/berpasangan)
+
+5. shorthand
+
+note: 
+-margin: 50px 100px; (cara bacanya: atas dan bawah 50px, kiri dan kanan 100px)
+
+-margin: 50px 100px 40px; (cara bacanya: atas 50px, kiri dan kanan 100px, bawah 40px)
+
+-margin: 10px 20px 30px 40px; (cara bacanya: atas 10px, kanan 20px, bawah 30px, kiri 40px)

@@ -1,0 +1,52 @@
+pSeudo class : kelas semu yang dimiliki oleh sebuah elemen HTML,
+yang membuat kita dapat mendefisinikan style pada keadaan tertentu
+dari elemen tersebut. kelasnya ada tapi semu dan tampil dalam 
+keadaan tertentu.
+
+
+: link 
+	style default pada sebuah link ( a yang memiliki href )
+: hover 
+	style ketika kursor mouse berada di atas sebuah link / elemen
+: active
+	style ketika sebuah link di-klik (keadaan aktif)
+: visited 
+	style ketika sebuah link sudah pernah di kunjungi sbelumnya 
+	(menggunakan browser yang sama)
+
+pseudo class yang kedua:
+
+
+:first-child
+	memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+:last-chlid
+	memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+:nth-child (n)
+	memilih elemen ke-n dari sebuah parent (elemen pembungkusnya).
+	n bisa berarti urutan (1),(2),... atau pola (2n),(3n+2),(4n-1) 
+	atau ganjil(even) dan genap(odd) 
+
+
+pseudo class yang berhubungan dengan posisi elemen (2)
+
+:first-of-type
+	memilih elemen pertama dari sebuah jenis / tipe tag
+:last-of-tipe
+	memilih elemen terakhir dari sebuah jenis / tipe tag
+
+:target
+	sebuah pseudo-class yang merepresentasikan sebuah elemen unik
+	dengan "id yang sama dengan penggalan identifier" pada URI 
+	(uniform Resoure Identifier)
+
+-penggalan identifier : penggalan atau tanda yang ada di dalam
+			href yang di awali dengan tanda (#).
+			
+			contoh :
+
+contoh target:				<a href="#gambar-1">
+				
+contoh id yang sama dengan nama target	<div class="overlay" id="gambar-1">
+
+note: target aktif jika di klik.
+				

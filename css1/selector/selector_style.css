@@ -1,0 +1,33 @@
+body {
+	font-family: arial;
+}
+/*memberikan semua perintah yang ada di dalam body*/
+
+h1, h2 {color: green;}
+/* beberapa selector di beri nilai sama dengan separator koma (,)*/
+
+ul li a {color:orange;}
+ol li a {color:red;}
+
+/*selector yang sama di beri nilai sama berbeda dan 
+memberi nilai pada tag di dalam element dengan separator spasi ( )*/
+
+.p1 {color:red;}
+
+.cetak-tebal {font-weight: bold;}
+
+p.cetak-tebal {font-size: 25px;}
+/*dibaca: carikan paragraf yang punya class cetak-tebal;
+/* tanda titik (.) untuk memanggil class
+note:
+1. sebuah elemen html boleh memiliki beberapa class
+*/
+#p2 {color:blue;}
+/* tanda hast (#) untuk memanggil id
+note: 
+1. sebuah elemen html hanya boleh memiliki 1 id
+2. setiap halaman hanya boleh memiliki 1 elemen dengan id tersebut
+3. dapat digunakan sebagai penanda halaman untuk link
+4. di gunakan juga untuk javascript
+5. sebaiknya tidak di gunakan untuk CSS (lebih baik gunakan class)
+*/

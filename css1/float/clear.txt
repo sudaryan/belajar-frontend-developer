@@ -1,0 +1,18 @@
+cara membersihkan float:
+1. menggunakan propery overflow (untuk ngakalin)
+2. menggunakan <div> kosong 
+3. menggunakan teknik micro clearfix
+
+float seharusya bukan di akalin, tapi di bersihkan dengan cara:
+1. pakai <div> kosong
+2. yang apling efektif pakai miro clearfix dari nicolas gallagher.
+
+
+property clear: berfungsi menggentikan / membersihkan float dipakai jika kita
+sudah tidak butuh float nya lagi.
+
+ada 3 value dari float:
+1. left
+2. rigth
+3. both (keduanya)
+
