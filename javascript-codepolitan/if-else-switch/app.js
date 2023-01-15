@@ -103,12 +103,31 @@
 // }
 
 
-const day = 4;
-switch (day) {
-    case 1:
-
-        break;
-
-    default:
-        break;
-}
+// cara penggunaan switch
+// const day = prompt('masukkan angka');
+// switch (day) {
+//     case '1':
+//         alert('senin')
+//         break;
+//     case '2':
+//         alert('selasa')
+//         break;
+//     case '3':
+//         alert('rabu')
+//         break;
+//     case '4':
+//         alert('kamis')
+//         break;
+//     case '5':
+//         alert('jumat')
+//         break;
+//     case '6':
+//         alert('sabtu')
+//         break;
+//     case '7':
+//         alert('minggu')
+//         break;
+//     default:
+//         alert('nomor yang anda inputkan salah')
+//         break;
+// }
