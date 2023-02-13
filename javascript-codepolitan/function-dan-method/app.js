@@ -255,3 +255,93 @@
 
 // Definisi sebuah method : ketika menambahkan function pada suatu object property
 // atau property yang memiliki function
+
+
+
+// keyword this: keyword untuk memanggil suatu property pada object yang sama.
+// tujuannya untuk mendapatkan nilainya
+
+// const saya = {
+//     nama: 'yanto',
+//     hobi: 'ngoding',
+//     kenalan: function () {
+//         return `Nama saya ${this.nama}. Hobi Saya ${this.hobi}`;
+//     }
+// }
+
+
+
+// try and catch : pengkondisian untuk mengecek suatu program.
+// program setelah catch akan berjalan ketika kode di dalam try salah
+// program setelah catch tidak akan berjalan ketika kode di dalam try benar
+
+// contoh:
+// try {
+//     saya.kenalan();
+
+// } catch {
+//     console.log('error!');
+// }
+// // saya.kenalan();
+// console.log('setelah cacth') // pesan error custom yang dibuat sendiri
+
+// contoh dengan function
+// function teriak(msg) {
+//     try {
+//         console.log(msg.toUpperCase());
+//     } catch (error) {
+//         console.log(error);
+//         console.log('Silahkan masukkan tipe data string pada function teriak()');
+//     }
+// }
+
+
+// foreach method : dapat menggunakan callback function yang berarti dapat memanggil sebuah fungsi sebanyak jumlah element yang dimiliki array (khusus array)
+
+// 
+// contoh : 
+// const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// angka.forEach(function (n) { // n mewakili setiap nilai di dalam array
+//     console.log(n * n); // n * n : mengakilan dirinya sendiri
+//     // output: 1,4,9,16, 25, 36, 49, 64, 81
+// })
+
+// contoh lain:
+// angka.forEach(function (el) {
+//     if (el % 2 === 0) {
+//         console.log(el);
+//     }
+// })
+
+// contoh menampilkan object dalam array
+
+// const animes = [{
+//         title: 'Attack on Titan',
+//         Rating: 90,
+//     },
+//     {
+//         title: 'One Peace',
+//         Rating: 89,
+//     },
+//     {
+//         title: 'Bleach',
+//         Rating: 82,
+//     },
+//     {
+//         title: 'Hunter x Hunter',
+//         Rating: 90,
+//     },
+//     {
+//         title: 'Naruto',
+//         Rating: 84,
+//     },
+// ];
+
+// animes.forEach(function (anime) {
+//     console.log(`${anime.title} - ${anime.Rating}/100`);
+// });
+
+
+
+// map method: sebuah callback funtion array yang nilai baliknya sudah di modifikasi melalui callback function dari susatu array
